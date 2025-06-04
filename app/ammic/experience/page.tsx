@@ -1,4 +1,4 @@
-import ExperienceCard from '@/component/experieceCard';
+import ExperienceCard from '@/components/experieceCard';
 
 const ExperiencePage = () => {
   return (

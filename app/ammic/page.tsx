@@ -1,5 +1,5 @@
 import { FaBrain } from 'react-icons/fa';
-import Card from '@/component/card';
+import Card from '@/components/card';
 
 export default function Ammic() {
     return (
