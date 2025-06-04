@@ -21,7 +21,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
   className = ''
 }) => {
   return (
-    <div className={`max-w-2xl p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 ${className}`}>
+    <div className={`flex flex-col grow p-6 bg-white border border-gray-200 my-0 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 ${className}`}>
 
       <div className="flex flex-col sm:flex-row sm:justify-between gap-2 mb-4">
         <div>

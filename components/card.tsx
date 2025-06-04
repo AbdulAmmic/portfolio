@@ -8,7 +8,7 @@ interface CardProps {
 
 export default function Card({ icon: Icon, title, items }: CardProps) {
     return (
-        <div className="border grow  border-gray-200 rounded-lg p-6 shadow-sm bg-white transition-all duration-300 hover:shadow-md hover:border-blue-200 hover:scale-[1.02] w-64">
+        <div className="border cursor-pointers  border-gray-200 rounded-lg p-6 shadow-sm bg-white transition-all duration-300 hover:shadow-md hover:border-blue-200 hover:scale-[1.02]">
             <div className="flex mb-4">
                 <div className="p-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 transition-transform duration-300 hover:scale-110">
                     <Icon className="text-2xl text-white" />
