@@ -5,14 +5,14 @@ export const contact = {
     email: {
       icon: "PiEnvelopeSimple",
       label: "Email",
-      value: "sjyamel1@gmail.com",
+      value: "connectorstech@gmail.com",
       href: "mailto:sjyamel1@gmail.com"
     },
     phone: {
       icon: "PiPhone",
       label: "Phone Number",
-      value: "+234 808 885 7002",
-      href: "tel:+2348088857002"
+      value: "+234 7087577535",
+      href: "tel:+234 9048482622"
     },
     location: {
       icon: "PiMapPin",
