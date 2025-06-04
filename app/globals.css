@@ -8,3 +8,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.grad-text {
+  background:linear-gradient(to right, #2563eb, #9333ea, #f59e0b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
