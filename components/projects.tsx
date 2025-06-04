@@ -65,7 +65,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               href={repoUrl} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors"
+              className="flex text-sm items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors"
             >
               <FiCode /> Code
             </a>
@@ -75,7 +75,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               href={demoUrl} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition-colors"
+              className="flex text-sm items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition-colors"
             >
               <FiExternalLink /> Live Demo
             </a>
