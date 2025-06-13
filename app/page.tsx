@@ -80,7 +80,6 @@ export default function SjyPage() {
     };
   }, []);
 
-  // Handle tab click to scroll to section
   const handleTabClick = (tab: string) => {
     setActiveTab(tab);
     let ref;
@@ -106,7 +105,7 @@ export default function SjyPage() {
 
     if (ref.current) {
       window.scrollTo({
-        top: ref.current.offsetTop - 80, // Adjust for header height
+        top: ref.current.offsetTop - 80, 
         behavior: "smooth"
       });
     }
@@ -150,7 +149,7 @@ export default function SjyPage() {
         />
       </div>
 
-      {/* Professional Journey Section */}
+
       <div ref={experienceRef}>
         <Section 
           theme="dark" 
